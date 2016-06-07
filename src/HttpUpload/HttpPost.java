@@ -7,8 +7,8 @@ public class HttpPost
  public static void main(String[] args) 
 	 {
 	   String charset = "UTF-8";
-	   String requestURL = "https://knott-demo.coupacloud.com/api/invoices/81/attachments";	
-	   File imageo = new File("C://Z/coupa.jpg");       
+	   String requestURL = "https://knott-demo.cloud.com/api/invoices/81/attachments";	
+	   File imageo = new File("C://Z/copa.jpg");       
        try 
 	        {
 	            HttpUpload upload = new HttpUpload(requestURL, charset);
