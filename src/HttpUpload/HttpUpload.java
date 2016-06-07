@@ -32,7 +32,7 @@ public HttpUpload(String requestURL, String charset) throws IOException
 	httpConn.setDoOutput(true);
 	//httpConn.setDoInput(true);
 	httpConn.setRequestProperty("Content-Type","multipart/form-data; boundary=----" + boundary);
-    httpConn.setRequestProperty("X-COUPA-API-KEY","096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2");
+    httpConn.setRequestProperty("XAPI-KEY","096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2");
     httpConn.setRequestProperty("accept","application/xml");
     //httpConn.setRequestProperty("attachment[file]",requestURL);
     outputStream = httpConn.getOutputStream();
